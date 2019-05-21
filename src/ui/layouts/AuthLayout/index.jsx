@@ -3,7 +3,7 @@ import './index.scss';
 
 const AuthLayout = ({ children, ...rest }) => (
     <div className="auth-layout">
-      <div>{children}</div>
+      {children}
     </div>
 );
 

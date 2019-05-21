@@ -5,6 +5,8 @@ import { Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Router } from './Router';
 import 'normalize.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import 'ui/style/index.scss';
 
 const App = () => (

@@ -16,3 +16,16 @@ body {
     font-weight: 400;
   }
 }
+$primary-color: #7f26c9;
+
+
+.btn{
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  &:hover{
+    background: transparent;
+    color: $primary-color;
+  }
+}
